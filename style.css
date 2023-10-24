@@ -1,0 +1,59 @@
+:root {
+  --primary: #00b98e;
+  --secondary: #effdf5;
+  --light: #effdf5;
+  --dark: #0e2e50;
+}
+
+/*Fonte: Heebo*/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Heebo", sans-serif;
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  font-size: 2.5rem;
+  color: var(--primary);
+  margin-left: 5px;
+}
+
+.logo img {
+  border: 2px dashed var(--primary);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+header {
+  -webkit-box-shadow: 0px 41px 157px -11px rgba(163, 163, 163, 1);
+  -moz-box-shadow: 0px 41px 157px -11px rgba(163, 163, 163, 1);
+  box-shadow: 0px 41px 157px -11px rgba(163, 163, 163, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.menu {
+  display: flex;
+  gap: 50px;
+}
+
+.menu a {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  color: #000;
+  margin-right: 30px;
+}
+
+.menu a:nth-child(1) {
+  color: var(--primary);
+}
